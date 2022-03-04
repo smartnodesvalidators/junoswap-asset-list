@@ -1,3 +1,7 @@
+Token Contract Address juno1pycyh3fqczmvfcrq6ake8pjvj2y3n7y4exvlgjyckkjkkg5kplsqpqx3a7
+JunoSwap Contract Address juno13r8ccgszy3x4qsck3k02rn48ceux4tp8sl0kzumeuedsvgdekg2stvu345
+Liqidy Pool Address juno1yyt04ac2n9l03sqpj6glkzz0jxdfca8uqsetjzjw9nuslugshmpqmf96v8
+
 {
   "name": "Juno Token List",
   "logoURI": "",
@@ -316,7 +320,7 @@
       "native": true,
       "denom": "ibc/0CB5D60E57FD521FA39D11E3E410144389010AC5EF5F292BC9BDD832FA2FDBF9"
     },
-        {
+    {
       "id": "",
       "pool_id": "JUNO-HOPE",
       "chain_id": "juno-1",
@@ -331,7 +335,7 @@
       ],
       "native": false,
       "denom": "hulc"
-},
+    },
     {
       "id": "",
       "pool_id": "JUNO-RAC",
@@ -345,7 +349,7 @@
       "tags": [
         "cw20"
       ],
-      "native":false,
+      "native": false,
       "denom": "rac"
     },
     {
@@ -361,8 +365,24 @@
       "tags": [
         "cw20"
       ],
-      "native":false,
+      "native": false,
       "denom": "marble"
+    },
+    {
+      "id": "",
+      "pool_id": "JUNO-SMART",
+      "chain_id": "juno-1",
+      "token_address": "juno1pycyh3fqczmvfcrq6ake8pjvj2y3n7y4exvlgjyckkjkkg5kplsqpqx3a7",
+      "swap_address": "juno13r8ccgszy3x4qsck3k02rn48ceux4tp8sl0kzumeuedsvgdekg2stvu345",
+      "symbol": "SMART",
+      "name": "SmartNodes",
+      "decimals": "4",
+      "logoURI": "https://smartnodes.co.uk/smlogo.png",
+      "tags": [
+        "cw20"
+      ],
+      "native": false,
+      "denom": "smart"
     }
   ],
   "version": {
